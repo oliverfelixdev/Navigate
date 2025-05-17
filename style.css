@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "hvar";
+  src: url("./assets/fonts/helveticavariable.ttf");
+}
+
+@font-face {
+  font-family: "groteskextrbold";
+  src: url("./assets/fonts/OldschoolGroteskExtraBold.woff2");
+}
+
+@font-face {
+  font-family: "groteskheavy";
+  src: url("./assets/fonts/OldschoolGroteskHeavy.woff2");
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.svg-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-item img {
+  width: 100%;
+  height: auto;
+}
+
+.button-wrap {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #c7ff69;
+  user-select: none;
+}
+
+.button-text {
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.button-text + .button-text {
+  pointer-events: none;
+  color: #000;
+  left: 0;
+  top: 0;
+}
+
+.button-wrap .button-text,
+.button-wrap .button-text + .button-text {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
