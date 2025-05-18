@@ -28,6 +28,13 @@
   height: auto;
 }
 
+@media only screen and (max-width: 425px) {
+  .svg-item img {
+    width: 8rem;
+    height: auto;
+  }
+}
+
 .button-wrap {
   position: relative;
   display: inline-block;
