@@ -41,8 +41,9 @@
 
 .button-text {
   position: relative;
+  font-family: "hvar";
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
   white-space: nowrap;
   opacity: 1;

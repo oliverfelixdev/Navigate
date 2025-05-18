@@ -1,77 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigate</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./assets/images/navigate.svg" type="images/x-icon" />
-</head>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/navigate.svg"
+      type="images/x-icon"
+    />
+  </head>
 
-<body>
+  <body>
     <main class="bg-[#FDF9F0] text-[#141414]">
-        <header>
-            <nav
-                class="w-full absolute top-0 left-0 p-3 flex flex-wrap items-center justify-between gap-y-4 sm:gap-y-0">
-                <div
-                    class="flex flex-wrap sm:flex-nowrap items-center justify-center gap-4 sm:gap-6 pr-4 pl-2 py-2 rounded border border-[#232323] w-full sm:w-auto">
-                    <a href="index.html">
-                        <img src="./assets/images/navigate.svg" alt="logo not found" class="logo h-8" />
-                    </a>
-                    <a data-cursor-stick class="text-xs font-semibold" href="#">Project</a>
-                    <a data-cursor-stick class="text-xs font-semibold" href="#">Navigators</a>
-                    <a data-cursor-stick class="text-xs font-semibold" href="#">Rewards</a>
-                    <a data-cursor-stick class="text-xs font-semibold" href="#">FAQ</a>
-                </div>
-                <div data-cursor-stick class="button-wrap w-full sm:w-auto text-center sm:text-right"
-                    anm-stagger-btn="wrap" anm-direction="up" anm-reverse="true" anm-stagger="0.0075" anm-delay="0"
-                    anm-duration="0.6" anm-ease="expo.inOut" anm-custom="y:0px">
-                    <div class="button-text" anm-stagger-btn="text">Launch Game</div>
-                </div>
-            </nav>
-
-            <div class="header-content min-h-screen w-full p-px flex flex-col justify-center items-center text-center">
-                <h1
-                    class="header-title mt-32 md:mt-40 text-[3rem] sm:text-[4.5rem] md:text-[6.5rem] font-[groteskheavy] tracking-tight leading-none">
-                    Your data runs <br class="hidden sm:block" /> the world
-                </h1>
-                <div class="w-full flex flex-col items-center justify-center gap-3 py-4">
-                    <span class="font-semibold text-sm">Start earning from it today.</span>
-                    <div data-cursor-stick data-cursor-text="Navigate" class="button-wrap" anm-stagger-btn="wrap"
-                        anm-direction="up" anm-reverse="true" anm-stagger="0.0075" anm-delay="0" anm-duration="0.6"
-                        anm-ease="expo.inOut" anm-custom="y:0px">
-                        <div class="button-text text-center" anm-stagger-btn="text">✣ Download Rewards Extension</div>
-                    </div>
-                </div>
-
-                <div class="vector-graphics w-full flex flex-wrap justify-center sm:justify-between  relative">
-                    <div class="svg-item">
-                        <img src="./assets/images/film.svg" alt="not found" />
-                    </div>
-                    <div class="svg-item">
-                        <img src="./assets/images/shirt.svg" alt="not found" />
-                    </div>
-                    <div class="svg-item">
-                        <img src="./assets/images/phantom.svg" alt="not found" />
-                    </div>
-                    <div class="svg-item">
-                        <img src="./assets/images/song.svg" alt="not found" />
-                    </div>
-                    <div class="svg-item">
-                        <img src="./assets/images/shopping.svg" alt="not found" />
-                    </div>
-                </div>
+      <header>
+        <nav
+          class="w-full absolute top-0 left-0 p-3 flex flex-wrap items-center justify-between gap-y-4 sm:gap-y-0"
+        >
+          <div
+            class="flex flex-wrap sm:flex-nowrap items-center justify-center gap-4 sm:gap-6 pr-4 py-2 rounded w-full sm:w-auto"
+          >
+            <a href="index.html">
+              <img
+                src="./assets/images/navigate.svg"
+                alt="logo not found"
+                class="logo h-8"
+              />
+            </a>
+            <a
+              data-cursor-stick
+              class="text-xs font-[hvar] font-medium"
+              href="#"
+              >Project</a
+            >
+            <a
+              data-cursor-stick
+              class="text-xs font-[hvar] font-medium"
+              href="#"
+              >Navigators</a
+            >
+            <a
+              data-cursor-stick
+              class="text-xs font-[hvar] font-medium"
+              href="#"
+              >Rewards</a
+            >
+            <a
+              data-cursor-stick
+              class="text-xs font-[hvar] font-medium"
+              href="#"
+              >FAQ</a
+            >
+          </div>
+          <div
+            data-cursor-stick
+            class="button-wrap shadow-md w-full sm:w-auto text-center sm:text-right"
+            anm-stagger-btn="wrap"
+            anm-direction="up"
+            anm-reverse="true"
+            anm-stagger="0.0075"
+            anm-delay="0"
+            anm-duration="0.6"
+            anm-ease="expo.inOut"
+            anm-custom="y:0px"
+          >
+            <div class="button-text" anm-stagger-btn="text">Launch Game</div>
+          </div>
+        </nav>
+        <div
+          class="header-content min-h-screen w-full p-px flex flex-col justify-center items-center text-center"
+        >
+          <h1
+            class="header-title mt-32 md:mt-40 text-[3rem] sm:text-[4.5rem] md:text-[6.5rem] font-[groteskheavy] tracking-tight leading-none"
+          >
+            Your data runs <br class="hidden sm:block" />
+            the world
+          </h1>
+          <div
+            class="w-full flex flex-col items-center justify-center gap-4 pb-4 pt-2"
+          >
+            <div class="flex items-center justify-center gap-7">
+              <a
+                data-cursor-text="↗"
+                class="font-[hvar] font-medium text-sm"
+                href="https://www.instagram.com/oliverfelixdev/"
+                target="_blank"
+                >Github
+              </a>
+              <a
+                data-cursor-text="↗"
+                class="font-[hvar] font-medium text-sm"
+                href="https://www.instagram.com/oliverfelixdev/"
+                target="_blank"
+                >Instagram
+              </a>
             </div>
-        </header>
+            <div
+              data-cursor-stick
+              class="button-wrap shadow-md"
+              anm-stagger-btn="wrap"
+              anm-direction="up"
+              anm-reverse="true"
+              anm-stagger="0.0075"
+              anm-delay="0"
+              anm-duration="0.6"
+              anm-ease="expo.inOut"
+              anm-custom="y:0px"
+            >
+              <div class="button-text text-center" anm-stagger-btn="text">
+                ✣ Download Rewards Extension
+              </div>
+            </div>
+          </div>
+          <div
+            class="vector-graphics w-full flex flex-wrap justify-center sm:justify-between relative"
+          >
+            <div class="svg-item">
+              <img src="./assets/images/film.svg" alt="not found" />
+            </div>
+            <div class="svg-item">
+              <img src="./assets/images/shirt.svg" alt="not found" />
+            </div>
+            <div class="svg-item">
+              <img src="./assets/images/phantom.svg" alt="not found" />
+            </div>
+            <div class="svg-item">
+              <img src="./assets/images/song.svg" alt="not found" />
+            </div>
+            <div class="svg-item">
+              <img src="./assets/images/shopping.svg" alt="not found" />
+            </div>
+          </div>
+        </div>
+      </header>
     </main>
-
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

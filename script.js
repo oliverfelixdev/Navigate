@@ -177,7 +177,7 @@ let cursorMain = () => {
   const images = document.querySelectorAll(".svg-item img");
 
   el.addEventListener("mouseenter", () => {
-    cursor.setSkewing(3);
+    cursor.setSkewing(4);
   });
 
   el.addEventListener("mouseleave", () => {
